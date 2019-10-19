@@ -1,12 +1,5 @@
 <?php
 
-/*
- * une méthode permettant d'afficher le livre
- */
-
-
-
-
 class Book
 {
     private $title;
@@ -53,7 +46,7 @@ class Book
         $this->title = $title;
     }
 
-    public function Show(){
+    public function show(){
         echo 'Le livre '     .$this->getTitle().
             ' ecrit par '    .$this->getAuthor().
             ' et publie par '.$this->getEditor().
